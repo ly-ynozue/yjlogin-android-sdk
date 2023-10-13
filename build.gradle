@@ -27,8 +27,8 @@ allprojects {
 
 subprojects {
     tasks.withType(Test) {
-        maxHeapSize = "４０９６m"
-        minHeapSize = "3072m"
+        maxHeapSize = "3072m"
+        minHeapSize = "2048m"
     }
 }
 
